@@ -8,4 +8,3 @@ def test_find_element_selenium(browser):
     file_upload_link.click()
     button_upload = browser.find_element_by_id('file-submit')
     assert 'Upload' == button_upload.get_attribute('value')
-
